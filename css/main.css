@@ -1,0 +1,248 @@
+/* --------------------ALL-------------------- */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.none {
+    display: none;
+}
+
+.responsive {
+    display: none;
+}
+
+/* --------------------ALL-------------------- */
+
+
+
+/* -------------------INDEX------------------ */
+
+.body {
+    background-color: #181a20;
+
+    height: 100vh;
+}
+
+/* -------------------HEADER-INDEX------------------- */
+
+.logo {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.logo-img {
+    height: 100px;
+}
+
+.header-index {
+    background-color: #2a2d3dc0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    border-bottom: #000000 solid 2px;
+}
+
+/* --------------------NAV-INDEX-------------------- */
+
+.menu-index {
+    display: flex;
+
+    list-style-type: none;
+
+    margin: 15px;
+}
+
+.menu-index li {
+    margin: 25px;
+}
+
+.menu-index li .btn-login {
+    background-color: #181a20;
+
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+    border: #9da6d3 solid 2px;
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-weight: 400;
+
+    transition: all .5s ease;
+}
+
+.menu-index li .data-g {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+    background-color: #181a20;
+
+    border: #ffd700 solid 2px;
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-weight: 400;
+
+    transition: all .5s ease;
+}
+
+
+.menu-index li .btn-login:hover {
+    color: #000000;
+
+    background-color: #9da6d3;
+}
+
+.menu-index li .data-g:hover {
+    color: #000000;
+
+    background-color: #ffd700;
+}
+
+/* --------------------NAV-INDEX-------------------- */
+
+/* --------------------HEADER-INDEX-------------------- */
+
+
+
+/* --------------------MAIN-INDEX-------------------- */
+
+.name {
+    width: 100%;
+
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.lupa-xl {
+    display: flex;
+    justify-content: center;
+}
+
+.lupa-det {
+    color: #000000;
+
+    width: 400px;
+    height: 50px;
+
+    border: 1px;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.games-img {
+    height: 150px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    background-color: #383d4c90;
+
+    border: #9da6d3 solid 2px;
+    border-radius: 10px;
+
+    transition: all .5s ease;
+}
+
+.games-img:hover {
+    background-color: #9da6d3;
+}
+
+.games {
+    text-align: center;
+}
+
+.d-load {
+    display: flex;
+
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+
+}
+
+.d-load a {
+    text-decoration: none;
+    font-weight: 400;
+
+    height: 50px;
+    width: 125px;
+
+    padding-top: 11px;
+
+    text-align: center;
+
+    border: #2ba85a solid 2px;
+    border-radius: 10px;
+
+    transition: all .5s ease;
+}
+
+.d-load a:hover {
+    color: #000000;
+
+    background-color: #2ba85a;
+}
+
+/* --------------------MAIN-INDEX-------------------- */
+
+
+
+/* --------------------FOOTER-INDEX-------------------- */
+
+footer {
+    position: fixed;
+    bottom: 0;
+
+    height: 50px;
+    width: 100%;
+
+    background-color: #2a2d3dc0;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+    border-top: #000000 solid 2px;
+}
+
+.iconos-r {
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+    height: 30px;
+}
+
+.copy {
+    color: #ffffff;
+
+    margin-left: 15px;
+}
+
+/* --------------------FOOTER-INDEX-------------------- */
+
+/* --------------------INDEX-------------------- */
