@@ -880,3 +880,106 @@ footer {
 /* --------------------MAIN-VLADIMIR-------------------- */
 
 /* --------------------VLADIMIR-------------------- */
+
+
+
+/* --------------------MEDIA-QUERIES-------------------- */
+
+@media screen and (max-width:1000px) {
+    .continuar ul li a {
+        font-size: 11px;
+    }
+
+    .cuadro-login {
+        width: 200px;
+        height: 420px;
+    }
+
+    .data {
+        width: 150px;
+
+        font-size: 10px;
+    }
+
+    .deco {
+        font-size: 10px;
+    }
+
+    .logo-login {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .name img {
+        height: 150px;
+    }
+
+    .iconos-f {
+        display: none;
+    }
+
+    .copy {
+        display: none;
+    }
+
+    .responsive {
+        display: flex;
+    }
+
+    .r-copy {
+        position: absolute;
+        left: 15px;
+        bottom: 12px;
+    }
+
+    .r-redes {
+        position: absolute;
+        right: 25px;
+    }
+
+    .r-redes a {
+        text-decoration: none;
+    }
+
+    .register-login {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .menu-index {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0;
+        padding: 0;
+
+        height: 121px;
+    }
+
+    .menu-index li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .menu-index .r-login {
+        margin-top: 21px;
+    }
+
+    .resp-460 {
+        display: none;
+    }
+
+    .games-img {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .name img {
+        height: 120px;
+    }
+}
+
+/* --------------------MEDIA-QUERIES-------------------- */
