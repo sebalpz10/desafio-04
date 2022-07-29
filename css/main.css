@@ -776,3 +776,107 @@ footer {
 /* --------------------MAIN-CHAMPS-------------------- */
 
 /* --------------------CHAMPS-------------------- */
+
+
+
+/* --------------------VLADIMIR-------------------- */
+
+/* --------------------MAIN-VLADIMIR-------------------- */
+
+.champ {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 150px;
+
+    width: 75%;
+
+    margin-left: 380px;
+}
+
+.flex {
+    display: flex;
+}
+
+.img-vladi {
+    height: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+
+    margin-left: 60px;
+}
+
+.powers {
+    height: 35px;
+
+    margin-right: 5px;
+    margin-left: 5px;
+
+    border: #000000 solid 1px;
+}
+
+.botones {
+    display: flex;
+
+    list-style-type: none;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.botones li a {
+    text-decoration: none;
+
+    border: #9da6d3 solid 2px;
+    border-radius: 10px;
+
+    margin-right: 20px;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    transition: all .5s ease;
+}
+
+.botones li a:hover {
+    color: #000000;
+
+    background-color: #9da6d3;
+}
+
+.relleno {
+    width: 625px;
+
+}
+
+.build {
+    margin-bottom: 70px;
+}
+
+.anuncio {
+    display: flex;
+
+    position: fixed;
+    top: 140px;
+    right: 30px;
+}
+
+.anuncio-02 {
+    display: flex;
+
+    position: fixed;
+    top: 405px;
+    right: 30px;
+}
+
+/* --------------------MAIN-VLADIMIR-------------------- */
+
+/* --------------------VLADIMIR-------------------- */
