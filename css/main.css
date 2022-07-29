@@ -598,3 +598,142 @@ footer {
 /* --------------------MAIN-LOL-------------------- */
 
 /* --------------------PAG-LOL-------------------- */
+
+
+
+/* --------------------LOGIN-------------------- */
+
+/* --------------------HEADER-LOGIN-------------------- */
+
+.header-login {
+    background-color: #2a2d3dc0;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: #000000 solid 2px;
+}
+
+.register-login {
+    text-decoration: none;
+
+    background-color: #181a20;
+
+    display: inline-block;
+
+    margin-top: 38px;
+    margin-right: 80px;
+
+    border: #9da6d3 solid 2px;
+    border-radius: 10px;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    transition: all .5s ease;
+}
+
+.register-login:hover {
+    background-color: #9da6d3;
+
+    color: #000000;
+}
+
+/* --------------------HEADER-LOGIN-------------------- */
+
+
+
+/* --------------------MAIN-LOGIN-------------------- */
+
+.logo-login {
+    margin-top: 60px;
+
+    height: 60px;
+}
+
+.cuadro-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: #2a2d3dc0;
+
+    width: 24%;
+
+    border-radius: 10px;
+    border: #000000 solid 2px;
+}
+
+.text {
+    margin-bottom: 25px;
+}
+
+.continuar ul {
+    list-style: none;
+
+    text-align: center;
+}
+
+.continuar ul li a {
+    text-decoration: none;
+
+    background-color: #181a20;
+
+    border: #9da6d3 solid 2px;
+    border-radius: 10px;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    transition: all .5s ease;
+}
+
+.continuar ul li a:hover {
+    background-color: #9da6d3;
+
+    color: #000000;
+}
+
+.continuar ul li {
+    margin-bottom: 20px;
+}
+
+.data {
+    color: #000000;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 200px;
+
+    text-align: center;
+
+    border: #000000 solid 1px;
+}
+
+.iniciar-olv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.deco {
+    text-decoration: none;
+
+    margin-bottom: 10px;
+}
+
+/* --------------------MAIN-LOGIN-------------------- */
+
+/* --------------------LOGIN-------------------- */
