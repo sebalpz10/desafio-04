@@ -737,3 +737,42 @@ footer {
 /* --------------------MAIN-LOGIN-------------------- */
 
 /* --------------------LOGIN-------------------- */
+
+
+
+/* --------------------CHAMPS-------------------- */
+
+.body-champs {
+    height: 100%;
+}
+
+/* --------------------MAIN-CHAMPS-------------------- */
+
+.container {
+    width: 78%;
+
+    margin-left: 330px;
+
+    padding-top: 160px;
+    padding-bottom: 80px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 70px;
+
+    justify-items: center;
+}
+
+.img-champs {
+    height: 105px;
+
+    border: #000000 solid 2px;
+}
+
+.div-champs {
+    text-align: center;
+}
+
+/* --------------------MAIN-CHAMPS-------------------- */
+
+/* --------------------CHAMPS-------------------- */
